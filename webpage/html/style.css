@@ -58,21 +58,7 @@
     font-size: 1.3rem;
   }
   
-  .btn {
-    display: inline-block;
-    border: none;
-    background: var(--primary-color);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    transition: all 1s ease-in-out;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    color: rgb(16, 16, 44);
-    opacity: 0.75;
-  }
+ 
   
   /* MENU STYLES */
   .menu-wrap {
@@ -224,4 +210,35 @@
     transition: color 0.4s ease;
   }
   
+  .preference-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .links{
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s ease;
+  }
+  .links:hover{
+    color: rgb(16, 16, 44);
+  }
+  .heading {
+    font-size: 38px;
+  }
+ .nav-bar{
+   position : absolute;
+   top: 0;
+   right: 0;
+   width: 30%;
   
+ }
+ .list{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .list li{
+   padding: 3%;
+   
+ }
