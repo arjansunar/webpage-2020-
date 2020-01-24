@@ -44,7 +44,7 @@
   .header .header-inner {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
     height: 100%;
@@ -242,3 +242,10 @@
    padding: 3%;
    
  }
+.wrapper_nep{
+    box-shadow: 4px rgb(16, 16, 44);
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:30px ;
+}
