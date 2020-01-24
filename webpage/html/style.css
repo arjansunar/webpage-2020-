@@ -16,6 +16,7 @@ header:before {
   }
 .navbar{
     position: fixed;
+    top:0;
     width : 100%;
     display: flex;
     justify-content: space-around;
@@ -44,4 +45,9 @@ nav ul li {
 .links{
     text-decoration: none;
     color: #fff;
+}
+.toppage{
+    text-align: justify;
+    color:rgb(223, 219, 219);
+    margin-top: 40vh;
 }
